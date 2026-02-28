@@ -117,7 +117,7 @@ class ThemeSpacing:
     md: str = "1rem"       # 16px
     lg: str = "1.5rem"     # 24px
     xl: str = "2rem"       # 32px
-    2xl: str = "3rem"      # 48px
+    xl: str = "3rem"      # 48px
 
 # ==========================================
 # BORDER RADIUS CONFIGURATION
