@@ -217,8 +217,8 @@ class ProfessionalReportGenerator:
             alert_bg = colors.HexColor('#ffedd5')
             message = "CAUTION: Air quality is unhealthy for sensitive groups."
         else:
-            alert_color = colors.HexColor('#FFFFFF')
-            alert_bg = colors.HexColor('#d1fae5')
+            alert_color = colors.HexColor('#166534')
+            alert_bg = colors.HexColor('#dcfce7')
             message = "Good air quality. Normal outdoor activities are safe."
         
         # Alert box
