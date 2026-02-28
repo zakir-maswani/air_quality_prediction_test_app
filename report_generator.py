@@ -67,7 +67,7 @@ class ProfessionalReportGenerator:
             spaceBefore=10,
             fontName='Helvetica-Bold',
             borderPadding=10,
-            borderColor=colors.HexColor('#2a5298'),
+            borderColor=colors.HexColor('#FFD580'),
             borderWidth=2,
             borderRadius=5
         ))
@@ -171,7 +171,7 @@ class ProfessionalReportGenerator:
         elements = []
         
         # Title
-        title = Paragraph("🌬️ AirGuard AI", self.styles['CustomTitle'])
+        title = Paragraph("🌬️ AQI Predictor Pro", self.styles['CustomTitle'])
         elements.append(title)
         
         # Subtitle
