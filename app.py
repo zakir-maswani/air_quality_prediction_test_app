@@ -52,7 +52,7 @@ st.markdown("""
         padding: 0;
     }
     
-    /* Header Styling - LIGHT ORANGE GRADIENT */
+    /* Header Styling -*/
     .header-container {
         background: linear-gradient(90deg, #fed7aa 0%, #fdbf60 100%);
         padding: 2.5rem;
@@ -127,7 +127,7 @@ st.markdown("""
         font-size: 0.95rem;
     }
     
-    /* Alert Styling - IMPROVED TEXT VISIBILITY */
+    /* Alert Styling - */
     .alert-box {
         border-radius: 10px;
         padding: 1.3rem;
@@ -399,7 +399,7 @@ def main():
     # Header
     st.markdown("""
     <div class="header-container">
-        <h1 class="header-title">AirGuard AI</h1>
+        <h1 class="header-title">AQI Predictor Pro</h1>
         <p class="header-subtitle">Research-Grade Air Quality Prediction System</p>
     </div>
     """, unsafe_allow_html=True)
