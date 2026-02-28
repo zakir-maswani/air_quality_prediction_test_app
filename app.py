@@ -37,7 +37,7 @@ warnings.filterwarnings("ignore")
 
 # PAGE CONFIGURATION
 st.set_page_config(
-    page_title="AirGuard AI - Air Quality Prediction",
+    page_title="AQI Predictor Pro - Air Quality Prediction",
     page_icon="▲",
     layout="wide",
     initial_sidebar_state="expanded"
