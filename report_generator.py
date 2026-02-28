@@ -1,5 +1,5 @@
 """
-Professional PDF Report Generator for AirGuard AI
+Professional PDF Report Generator for AQI Predictor Pro
 Generates comprehensive air quality prediction reports
 """
 
@@ -27,7 +27,7 @@ class ProfessionalReportGenerator:
         """
         if filename is None:
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            filename = f"AirGuard_Report_{timestamp}.pdf"
+            filename = f"AQI_Predictor_Pro_{timestamp}.pdf"
         
         self.filename = filename
         self.styles = getSampleStyleSheet()
@@ -40,7 +40,7 @@ class ProfessionalReportGenerator:
             name='CustomTitle',
             parent=self.styles['Heading1'],
             fontSize=28,
-            textColor=colors.HexColor('#1e3c72'),
+            textColor=colors.HexColor('#FFD580'),
             spaceAfter=12,
             alignment=TA_CENTER,
             fontName='Helvetica-Bold'
