@@ -1,5 +1,5 @@
 """
-AirGuard AI - Research-Grade Air Quality Prediction System
+AQI Predictor Pro - Research-Grade Air Quality Prediction System
 Professional Edition with Advanced Features & Report Generation
 
 Research Compliance:
@@ -752,12 +752,12 @@ def show_report_generator():
 # PAGE: ABOUT
 def show_about():
     """Display about page."""
-    st.markdown("## About AirGuard AI")
+    st.markdown("## About AQI Predictor Pro")
     
     st.markdown("""
     ### Research-Grade Air Quality Prediction System
     
-    AirGuard AI is a comprehensive machine learning system designed to predict air quality 
+    AQI Predictor Pro is a comprehensive machine learning system designed to predict air quality 
     in UK cities using advanced deep learning models and real-time meteorological data.
     
     #### Key Features
