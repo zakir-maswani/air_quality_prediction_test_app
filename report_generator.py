@@ -62,7 +62,7 @@ class ProfessionalReportGenerator:
             name='SectionHeading',
             parent=self.styles['Heading2'],
             fontSize=14,
-            textColor=colors.HexColor('#1e3c72'),
+            textColor=colors.HexColor('#FFFFFF'),
             spaceAfter=10,
             spaceBefore=10,
             fontName='Helvetica-Bold',
