@@ -20,7 +20,7 @@ class ThemeColors:
     """Centralized color definitions for the entire application."""
     
     # Primary Colors - Light Orange Theme
-    header_light: str = "#fed7aa"          # Light orange
+    header_light: str = "#aad0fe"       # Light orange
     header_dark: str = "#fdbf60"           # Medium orange
     header_medium: str = "#f59e0b"         # Darker orange
     
