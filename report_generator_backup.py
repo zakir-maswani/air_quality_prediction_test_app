@@ -268,8 +268,8 @@ class ProfessionalReportGenerator:
             ['Pollutant', 'Level (µg/m³)', 'Status'],
             ['PM2.5', f"{current_data.get('PM2.5', 0):.1f}", self._get_status_text(current_data.get('PM2.5', 0))],
             ['PM10', f"{current_data.get('PM10', 0):.1f}", self._get_status_text(current_data.get('PM10', 0), 'PM10')],
-            ['NO2', f"{current_data.get('NO2', 0):.1f}", self._get_status_text(current_data.get('NO2', 0), 'NO2')],
-            ['O3', f"{current_data.get('O3', 0):.1f}", self._get_status_text(current_data.get('O3', 0), 'O3')],
+            ['', f"{current_data.get('NO2', 0):.1f}", self._get_status_text(current_data.get('NO2', 0), 'NO2')],
+            ['', f"{current_data.get('O3', 0):.1f}", self._get_status_text(current_data.get('O3', 0), 'O3')],
         ]
         
         table = Table(data, colWidths=[2*inch, 2*inch, 2.5*inch])
